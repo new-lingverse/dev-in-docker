@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  node_18:
+    image: node:18-alpine
+    container_name: node_18
+    command: sleep infinity
